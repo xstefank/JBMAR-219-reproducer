@@ -19,4 +19,14 @@
 *.rar
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
-hs_err_pid*
+hlength=${#JAVA_DIR}
+last_char=${JAVA_DIR:length-1:1}
+
+[[ $last_char != "/" ]] && JAVA_DIR="$JAVA_DIR/"; :
+
+s_err_pid*
+
+target
+.idea
+*.iml
+
