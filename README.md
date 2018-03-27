@@ -6,7 +6,7 @@
 - openjdk version "1.8.0_161" - PASSED
 - java version "1.8.0_111" - FAILURE
   - ```java
-java.lang.IllegalStateException: Constructor is unexpectedly inaccessible
+        java.lang.IllegalStateException: Constructor is unexpectedly inaccessible
 	at org.jboss.marshalling.reflect.SerializableClass.invokeConstructorNoException(SerializableClass.java:377)
 	at org.jboss.marshalling.reflect.SerializableClass.callNonInitConstructor(SerializableClass.java:332)
 	at org.jboss.marshalling.cloner.SerializingCloner.clone(SerializingCloner.java:248)
